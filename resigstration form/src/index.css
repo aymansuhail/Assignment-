@@ -1,0 +1,80 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87); /* Improved text color */
+  background-color: #f5f5f5; /* Lighter background color */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none; /* Changed from inherit */
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+form {
+  width: 400px; /* Adjust width as needed */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #b99c9c;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+h1 {
+  font-size: 2.5em; /* Decreased font size slightly */
+  margin-bottom: 20px; /* Added margin bottom */
+}
+
+button {
+  border-radius: 8px;
+  border: none; /* Removed border */
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #646cff; /* Changed button color */
+  color: #ffffff; /* Changed text color */
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+button:hover {
+  background-color: #535bf2; /* Darker color on hover */
+}
+button:focus,
+button:focus-visible {
+  outline: none; /* Removed outline */
+}
+
+input,
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: #ff0000; /* Changed error message color */
+}
